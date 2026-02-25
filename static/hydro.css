@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+#app {
+  display: flex;
+  height: 100vh;
+}
+#map {
+  flex: 1;
+}
+#info {
+  width: 300px;
+  padding: 12px;
+  box-sizing: border-box;
+  background: #fff;
+  border-left: 1px solid #ddd;
+}
+#info h3 {
+  margin: 0 0 8px 0;
+}
+#info p {
+  margin: 6px 0;
+}
+#info button {
+  margin-top: 8px;
+  padding: 6px 10px;
+}

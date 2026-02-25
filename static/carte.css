@@ -1,0 +1,26 @@
+body{
+    margin: 20;
+}
+
+#map { 
+    height: 80vh;
+}
+#entete{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+}
+
+#formulaire{
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+#valider{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}

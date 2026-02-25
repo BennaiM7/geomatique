@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+#map { 
+    height: 100vh;
+}
+
+@keyframes pulse {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.leaflet-interactive{
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+}
+
+.leaflet-interactive:hover{
+    animation: pulse .5s infinite alternate;
+}
