@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP - Sealevel</title>
+  <link rel="stylesheet" href="https://unpkg.com/ol/ol.css">
+  <script src="https://unpkg.com/ol/dist/ol.js"></script>
+  <link rel="stylesheet" href="../static/sealevel.css">
+   <script src="https://unpkg.com/maplibre-gl@^5.13.0/dist/maplibre-gl.js"></script>
+  <link href="https://unpkg.com/maplibre-gl@^5.13.0/dist/maplibre-gl.css" rel="stylesheet" />
+  
+</head>
+<body>
+  <div id="map" class="map"></div>
+  
+  <label>
+    Sea level
+    <input id="level" type="range" min="0" max="100" value="0"/>
+    +<span id="output"></span> m
+  </label>
+  <br>
+  
+  Go to
+  <a class="location" data-center="-122.3267,37.8377" data-zoom="11">San Francisco</a>,
+  <a class="location" data-center="-73.9338,40.6861" data-zoom="11">New York</a>,
+  <a class="location" data-center="72.9481,18.9929" data-zoom="11">Mumbai</a>, or
+  <a class="location" data-center="120.831,31.160" data-zoom="9">Shanghai</a>
+  
+  <script src="../static/sealevel.js"></script>
+</body>
+</html>
